@@ -4,11 +4,11 @@ from sklearn.linear_model import LinearRegression
 import pickle
 
 # 모델 불러오기
-with open('model.pkl', 'rb') as file:
-    model = pickle.load(file)
+# with open('model.pkl', 'rb') as file:
+#     model = pickle.load(file)
 
-# # 모델 불러오기 (모델이 'model.pkl' 파일로 저장)
-# model = pickle.load(open('model.pkl', 'rb'))
+# 모델 불러오기 (모델이 'model.pkl' 파일로 저장)
+model = pickle.load(open('model.pkl', 'rb'))
 
 # 스트림릿 타이틀
 st.title('PSD 예측기')
