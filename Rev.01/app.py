@@ -8,7 +8,7 @@ import pickle
 #     model = pickle.load(file)
 
 # 모델 불러오기 (모델이 'model.pkl' 파일로 저장)
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('Rev.01/model.pkl', 'rb'))
 
 # 스트림릿 타이틀
 st.title('PSD 예측기')
